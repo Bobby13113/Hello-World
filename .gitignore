@@ -1,0 +1,66 @@
+# Unreal Engine
+Binaries/
+Intermediate/
+Saved/
+Content/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.log
+*.orig
+*.rej
+*.orig.*
+*.rej.*
+*.tmp
+*.tmp.*
+*.swp
+*.swp.*
+*~
+.DS_Store
+Thumbs.db
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.log
+
+# Build outputs
+Debug/
+Release/
+x64/
+Win32/
+
+# IDE settings
+.idea/
+.vscode/
+
+# Editor settings
+.editorconfig
+
+# Generated files
+*.generated.*
+*.cpp.generated.*
+*.h.generated.*
+
+# Asset thumbnails
+*.thumbnail.*
+
+# Cache
+Cache/
+Temp/
+TemporaryFiles/
+
+# Logs
+Logs/
+*.log
+
+# Backup files
+*.bak
+*.backup
