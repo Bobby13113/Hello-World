@@ -4,7 +4,7 @@
 
 Before you begin, ensure you have the following installed:
 
-1. **Unreal Engine 5.0 or later**
+1. **Unreal Engine 5.7.4** (or compatible version 5.2-5.7)
    - Download from [unrealengine.com](https://www.unrealengine.com/)
 
 2. **Visual Studio 2022** or **Visual Studio Code**

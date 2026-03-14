@@ -8,10 +8,20 @@ The "AI Overlords" game is set in a near-future dystopia where humanity fights a
 
 ### Core Gameplay Loop
 
-1. **Explore**: Scavenge for resources and information
+1. **Explore**: Navigate the global Earth map
 2. **Hack**: Use hacking devices to disrupt AI systems
 3. **Combat**: Fight against AI-controlled enemies
 4. **Upgrade**: Improve weapons and gear with scavenged parts
+
+### Game Style
+
+**Top-Down Earth Map Scroller**
+
+- Camera views Earth from above
+- Scrollable map with lat/long coordinates
+- World map size: 20,000 x 10,000 units
+- Camera zoom levels: 500-2000 units
+- Mouse and keyboard controls
 
 ## Character System
 
@@ -20,12 +30,36 @@ The "AI Overlords" game is set in a near-future dystopia where humanity fights a
 - **Health System**: Resistance units have configurable health points
 - **Movement**: Fast and agile for hit-and-run tactics
 - **Weapons**: Customize with scavenged and custom weapons
+- **Top-Down Movement**: WASD or arrow keys to move
 
 ### AI Overlords
 
 - **Enemy AI**: Uses the AIController template for behavior
 - **Patrol Patterns**: Predefined patrol routes
 - **Combat AI**: Aggressive and adaptive
+
+## Map System
+
+### Earth Map Generator
+
+- **Grid System**: 100-unit grid cells
+- **Terrain Types**: Plains, forests, mountains, water
+- **City Locations**: Major world cities at lat/long coordinates
+- **Terrain Features**: Rivers, lakes, forests
+
+### Map Features
+
+- **Lat/Long Coordinate System**: Real Earth coordinates mapped to game world
+- **Grid-Based Terrain**: Tiles for terrain types
+- **City Placement**: Major world cities
+- **Dynamic Loading**: Load map sections as player moves
+
+### Camera System
+
+- **Orthographic View**: Top-down perspective
+- **Smooth Following**: Camera follows player unit
+- **Zoom Control**: Mouse wheel zoom (500-2000 units)
+- **Pan Controls**: Mouse drag or keyboard
 
 ## Combat System
 
@@ -34,6 +68,7 @@ The "AI Overlords" game is set in a near-future dystopia where humanity fights a
 1. **Ranged Weapons** -使用 projectile template
    - Customizable damage and accuracy
    - Ammo management
+   - Top-down aiming
 
 2. **Melee Weapons**
    - Fast but short range
